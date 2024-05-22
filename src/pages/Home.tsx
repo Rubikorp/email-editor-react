@@ -1,5 +1,5 @@
-import { EmailEditor } from './Components/EmailEditor'
-import { EmailList } from './email-list/EmailList'
+import { EmailEditor } from '../Components/EmailEditor'
+import { EmailList } from '../email-list/EmailList'
 import styles from './Home.module.scss'
 
 export function Home() {

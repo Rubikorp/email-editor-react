@@ -1,12 +1,51 @@
+.preview {
+	padding: 1rem;
+	border: 1px solid rgba(120, 120, 120, 0.4);
+	border-radius: 10px;
+}
+
+.animation_prev_open {
+	min-height: 160px;
+	animation: prev-open 0.5s ease-in-out;
+}
+.animation_prev_close {
+	min-height: 0;
+	animation: prev-close 0.5s ease-in-out;
+}
+
+@keyframes prev-open {
+	from {
+		min-height: 0;
+	}
+	to {
+		min-height: 160px;
+	}
+}
+@keyframes prev-close {
+	from {
+		min-height: 160px;
+	}
+	to {
+		height: 0;
+	}
+}
+
 .card {
-	padding: 1.2em;
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 10px;
 	overflow: hidden;
 	border: 1px solid #2e2e2e;
 
 	.editor {
+		padding: 1.2rem;
 		padding-bottom: 1.5rem;
+		display: block;
+		width: calc(100% - 2.4rem);
+		min-height: 160px;
+		border: none;
+		outline: none;
+		background: transparent;
+		resize: none;
 	}
 
 	.actions {

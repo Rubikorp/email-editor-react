@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.37.1",
+    "axios": "^1.7.1",
+    "html-react-parser": "^5.1.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
