@@ -1,8 +1,24 @@
 {
-	"emails": [
-		{
-			"id": "1",
-			"text": "text"
-		}
-	]
+  "emails": [
+    {
+      "id": "1",
+      "text": "text"
+    },
+    {
+      "id": "cbac",
+      "text": "sdsad"
+    },
+    {
+      "id": "ad0f",
+      "text": "dsads"
+    },
+    {
+      "id": "9b41",
+      "text": "<b>dsads</b>"
+    },
+    {
+      "id": "6b9c",
+      "text": "<b><u>dsadsa</u></b>"
+    }
+  ]
 }
