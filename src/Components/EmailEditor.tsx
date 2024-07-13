@@ -10,7 +10,7 @@ export function EmailEditor() {
 
 	const queryClient = useQueryClient()
 
-	const { mutate, isLoading } = useMutation({
+	const { mutate} = useMutation({
 		mutationKey: ['create email'],
 		mutationFn: () => emailService.createEmail(text),
 		onSuccess() {
@@ -57,7 +57,6 @@ export function EmailEditor() {
 						</button>
 					</div>
 					<button
-						disabled={isLoading}
 						onClick={() => {
 							mutate()
 						}}
