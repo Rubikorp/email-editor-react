@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import styles from './EmailList.module.scss'
+import styles from './EmailList.module.css'
 import { emailService } from '../services/email.service'
 import parse from 'html-react-parser'
 
